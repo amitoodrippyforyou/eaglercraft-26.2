@@ -113,7 +113,7 @@ The server also supports other connection methods where compatible, including:
 * 🟦 EaglerCraft
 * 🟩 Standard Minecraft clients
 
-However, **Tuff Client is the recommended client**.
+However, **Tuff Client is the recommended client for Eaglercraft users**.
 
 ---
 
