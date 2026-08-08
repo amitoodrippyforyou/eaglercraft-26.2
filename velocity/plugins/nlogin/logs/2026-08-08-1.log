@@ -1,0 +1,19 @@
+[2026/08/08 02:32:36 INFO]:           __             _       
+[2026/08/08 02:32:36 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/08/08 02:32:36 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/08/08 02:32:36 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/08/08 02:32:36 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/08/08 02:32:36 INFO]:                   |___/            
+[2026/08/08 02:32:36 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/08/08 02:32:36 INFO]:  
+[2026/08/08 02:32:37 DEBUG]: The config.yml file was created successfully.
+[2026/08/08 02:32:37 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/08 02:32:37 DEBUG]: Messages were loaded in 130 ms (single file).
+[2026/08/08 02:32:37 DEBUG]: The config.yml file was created successfully.
+[2026/08/08 02:32:37 DEBUG]: Settings were loaded in 264 ms.
+[2026/08/08 02:32:37 DEBUG]: Loading database...
+[2026/08/08 02:32:40 INFO]: Generating RSA keypair... (this may take a while)
+[2026/08/08 02:32:42 INFO]: The RSA key pair was successfully generated. Took 1.94s
+[2026/08/08 02:32:42 DEBUG]: Starting logger filter...
+[2026/08/08 02:32:42 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/08/08 02:33:00 INFO]: Successful plugin core shutdown (took 0.08s)
