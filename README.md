@@ -207,12 +207,15 @@ Once the Codespace has loaded, start the server using the provided startup confi
 ### 4. Expose the server
 
 Configure the required Codespaces port so that players can connect.
+By going to Ports then adding exactly 25565
 
 ### 5. Join
 
 Connect using **Tuff Client** for the recommended experience.
 
 Compatible players may also connect using **EaglerCraft** or a normal Minecraft client.
+
+Note: Right now for people who is using it on code/workspace the system for joining from the actual minecraft is a work in progress as that requires playit.gg which uses keys and thoose keys gets exposed to the public when its added to the workspace.
 
 ---
 
@@ -251,24 +254,6 @@ The overall architecture looks like this:
                     └──────────────┘
 ```
 
----
-
-## 📁 Project Structure
-
-```text
-.
-├── .devcontainer/
-├── server/
-├── config/
-├── plugins/
-├── scripts/
-├── start.sh
-└── README.md
-```
-
-The exact structure may change as the project develops.
-
----
 
 ## ⚙️ Configuration
 
@@ -336,7 +321,7 @@ Thanks to the projects and communities that make this setup possible.
 * **Minecraft** — the game and ecosystem
 * **EaglerCraft** — browser-based Minecraft technology
 * **Tuff Client** — recommended client experience
-
+* **Atypical Potato** — For original idea
 ---
 
 ## 🌟 Star the Project
