@@ -22,6 +22,8 @@ The server is primarily designed to be accessed through **Tuff Client**, providi
 
 [![Video on how to set it up](https://img.shields.io/badge/YouTube-How%20to%20set%20it%20up-red?logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
 
+Note:this project will be soon moved over to my friends Hyrisks account.
+
 ---
 
 ## ✨ Features
