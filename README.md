@@ -16,11 +16,11 @@ The server is primarily designed to be accessed through **Tuff Client**, providi
 
 > **⚡ Recommended Client:** [Tuff Client](#-joining-the-server)
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-26.2-green.svg?logo=minecraft)](#)
-[![EaglerCraft](https://img.shields.io/badge/EaglerCraft-Supported-blue.svg)](#)
-[![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-black.svg?logo=github)](#)
-[![Tuff Client](https://img.shields.io/badge/Client-Tuff%20Client-purple.svg)](#)
-[![Status](https://img.shields.io/badge/Server-Online-brightgreen.svg)](#)
+[![EaglerCraft](https://img.shields.io/badge/EaglerCraft-Supported-blue.svg)](https://https://eaglercraft.com/)
+
+[![Tuff Client](https://img.shields.io/badge/Client-Tuff%20Client-purple.svg)](https://https://tuffclient.com/)
+
+[![Video](https://img.shields.io/badge/YouTube-How%20to%20set%20it%20up-red?logo=youtube&logoColor=white)](Vedio dosent exist yet lol)
 
 ---
 
