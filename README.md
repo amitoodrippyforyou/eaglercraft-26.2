@@ -2,6 +2,7 @@
 
 <a href="https://github.com/Hyrisks">
   <img
+    align="right"
     src="https://avatars.githubusercontent.com/u/288812336?v=4"
     width="220"
     height="220"
