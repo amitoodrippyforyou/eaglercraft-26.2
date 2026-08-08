@@ -1,7 +1,14 @@
 # ⛏️ Minecraft 26.2 Server
 
 <a href="https://github.com/Hyrisks" target="_blank">
-<img align="right" src="https://avatars.githubusercontent.com/u/288812336?v=4" width="220px" height="220px" style="border-radius: 50%;" alt="Server Logo" href>
+  <img
+    align="right"
+    src="https://avatars.githubusercontent.com/u/288812336?v=4"
+    width="220px"
+    height="220px"
+    style="border-radius: 50%;"
+    alt="Server Logo"
+  >
 </a>
 
 A Minecraft **26.2 server** designed to run through **GitHub Codespaces**, with support for both **normal Minecraft** and **EaglerCraft**.
