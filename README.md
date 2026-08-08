@@ -320,10 +320,6 @@ The goal is to make a flexible Minecraft server that can be accessed in multiple
 
 ## 📜 License
 
-Add your preferred license here.
-
-For example:
-
 ```text
 MIT License
 ```
