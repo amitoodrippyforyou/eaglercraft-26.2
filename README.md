@@ -14,7 +14,7 @@ A Minecraft **26.2 server** designed to run through **GitHub Codespaces**, with 
 
 The server is primarily designed to be accessed through **Tuff Client**, providing a simple way to connect, authenticate, and play without needing a traditional dedicated server machine.
 
-> **⚡ Recommended Client:** [Tuff Client](#-joining-the-server)
+> **⚡ Recommended Client:** [Tuff Client](tuffclient.com)
 
 [![EaglerCraft](https://img.shields.io/badge/EaglerCraft-Supported-blue.svg)](https://https://eaglercraft.com/)
 
