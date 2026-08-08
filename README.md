@@ -1,7 +1,13 @@
 # ⛏️ Minecraft 26.2 Server
 
-<img align="right" src="https://avatars.githubusercontent.com/u/288812336?v=4" width="220px" height="220px" style="border-radius: 50%;" alt="Server Logo">
-
+<img
+  align="right"
+  src="https://avatars.githubusercontent.com/u/288812336?v=4"
+  width="220px"
+  height="220px"
+  style="border-radius: 50%; border: 4px solid #000;"
+  alt="Server Logo"
+>
 A Minecraft **26.2 server** designed to run through **GitHub Codespaces**, with support for both **normal Minecraft** and **EaglerCraft**.
 
 The server is primarily designed to be accessed through **Tuff Client**, providing a simple way to connect, authenticate, and play without needing a traditional dedicated server machine.
