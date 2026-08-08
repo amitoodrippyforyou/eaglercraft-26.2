@@ -20,7 +20,7 @@ The server is primarily designed to be accessed through **Tuff Client**, providi
 
 [![Tuff Client](https://img.shields.io/badge/Client-Tuff%20Client-purple.svg)](https://https://tuffclient.com/)
 
-[![Video](https://img.shields.io/badge/YouTube-How%20to%20set%20it%20up-red?logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
+[![Video on how to set it up](https://img.shields.io/badge/YouTube-How%20to%20set%20it%20up-red?logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
 
 ---
 
