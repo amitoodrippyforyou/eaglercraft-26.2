@@ -1,0 +1,29 @@
+[2026/08/09 01:00:21 INFO]:           __             _       
+[2026/08/09 01:00:21 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/08/09 01:00:21 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/08/09 01:00:21 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/08/09 01:00:21 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/08/09 01:00:21 INFO]:                   |___/            
+[2026/08/09 01:00:21 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/08/09 01:00:21 INFO]:  
+[2026/08/09 01:00:21 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/09 01:00:21 DEBUG]: Messages were loaded in 180 ms (single file).
+[2026/08/09 01:00:21 DEBUG]: Settings were loaded in 251 ms.
+[2026/08/09 01:00:21 DEBUG]: Loading database...
+[2026/08/09 01:00:21 DEBUG]: Starting logger filter...
+[2026/08/09 01:00:22 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/08/09 01:19:06 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Hyriskalt', `unique_id` = 5f28247f2b3032f19cb9f2d1adf81e83,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IC6s3b9NPTc82P43eVa2jQ$Xh0PZ7b+c3Z+trdhC5G89keRxjR1RPuz6aD4959zoTI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-08-09 00:47:45.005, `last_seen` = 2026-08-09 01:19:06.035, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/08/09 01:19:06 INFO]: The user Hyriskalt has successfully logged in.
+[2026/08/09 01:21:20 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Hyriskalt', `unique_id` = 5f28247f2b3032f19cb9f2d1adf81e83,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IC6s3b9NPTc82P43eVa2jQ$Xh0PZ7b+c3Z+trdhC5G89keRxjR1RPuz6aD4959zoTI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-08-09 00:47:45.005, `last_seen` = 2026-08-09 01:21:20.407, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/08/09 01:22:11 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:22:20 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:22:32 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:22:39 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:23:07 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:23:18 DEBUG]: The Hyriskalt (0:0:0:0:0:0:0:1) player entered an incorrect password
+[2026/08/09 01:30:28 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Hyrisks', 31937d5efa363d808d9d5c9d1e8afb25, null, null, '$argon2id$v=19$m=32768,t=5,p=1$hvWIGQ5ldtyAMV1k3T8nOw$BwKAYazXbywleeQVLEZcdMG+zkwKnlhSNj8VO7s1SBg', '127.0.0.1', '2026-08-09 01:30:28.458', '2026-08-09 01:30:28.458', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/08/09 01:30:28 INFO]: The user Hyrisks has successfully registered.
+[2026/08/09 01:32:05 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Hyriskalts', 4386e84baf4435ad85a8a40964976e5a, null, null, '$argon2id$v=19$m=32768,t=5,p=1$3EspO3nlWDcoiODCzwIiQA$d+DQ8Nf7EACUF+lxJESGm9IqvXrcZwN7YrDU79Q/6wI', '0:0:0:0:0:0:0:1', '2026-08-09 01:32:05.336', '2026-08-09 01:32:05.336', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/08/09 01:32:05 INFO]: The user Hyriskalts has successfully registered.
+[2026/08/09 01:33:36 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Hyrisks', `unique_id` = 31937d5efa363d808d9d5c9d1e8afb25,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$hvWIGQ5ldtyAMV1k3T8nOw$BwKAYazXbywleeQVLEZcdMG+zkwKnlhSNj8VO7s1SBg', `last_ip` = '127.0.0.1', `creation_date` = 2026-08-09 01:30:28.458, `last_seen` = 2026-08-09 01:33:34.87, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/08/09 01:33:40 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Hyriskalts', `unique_id` = 4386e84baf4435ad85a8a40964976e5a,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$3EspO3nlWDcoiODCzwIiQA$d+DQ8Nf7EACUF+lxJESGm9IqvXrcZwN7YrDU79Q/6wI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-08-09 01:32:05.336, `last_seen` = 2026-08-09 01:33:40.186, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)

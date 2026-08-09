@@ -1,0 +1,32 @@
+[2026/08/08 23:54:19 INFO]:           __             _       
+[2026/08/08 23:54:19 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/08/08 23:54:19 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/08/08 23:54:19 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/08/08 23:54:19 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/08/08 23:54:19 INFO]:                   |___/            
+[2026/08/08 23:54:19 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/08/08 23:54:19 INFO]:  
+[2026/08/08 23:54:19 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/08 23:54:19 DEBUG]: Messages were loaded in 142 ms (single file).
+[2026/08/08 23:54:19 DEBUG]: Settings were loaded in 215 ms.
+[2026/08/08 23:54:19 DEBUG]: Loading database...
+[2026/08/08 23:54:20 DEBUG]: Starting logger filter...
+[2026/08/08 23:54:20 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/08/08 23:54:57 INFO]: 
+[2026/08/08 23:54:57 INFO]:  Thank you so much for choosing nLogin! :)
+[2026/08/08 23:54:57 INFO]: 
+[2026/08/08 23:54:57 INFO]:  For your safety, please read the message below:
+[2026/08/08 23:54:57 INFO]:   Never download nLogin from unknown sources.
+[2026/08/08 23:54:57 INFO]:   A modified version may contain malicious software.
+[2026/08/08 23:54:57 INFO]: 
+[2026/08/08 23:54:57 INFO]:  Trusted sources:
+[2026/08/08 23:54:57 INFO]:   Website: nickuc.com
+[2026/08/08 23:54:57 INFO]:   GitHub: github.com/nickuc-com
+[2026/08/08 23:54:57 INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[2026/08/08 23:54:57 INFO]: 
+[2026/08/08 23:54:57 INFO]:  Official support:
+[2026/08/08 23:54:57 INFO]:   Documentation: docs.nickuc.com/nlogin/
+[2026/08/08 23:54:57 INFO]:   Discord: nickuc.com/discord
+[2026/08/08 23:54:57 INFO]:   Email: support@nickuc.com
+[2026/08/08 23:54:57 INFO]: 
+[2026/08/08 23:59:29 INFO]: Successful plugin core shutdown (took 0.00s)

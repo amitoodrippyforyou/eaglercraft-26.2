@@ -4,5 +4,11 @@
     "name": "Hyriskalt",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "31937d5e-fa36-3d80-8d9d-5c9d1e8afb25",
+    "name": "Hyrisks",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

@@ -1,51 +1,35 @@
 {
   "stats": {
-    "minecraft:killed": {
-      "minecraft:zombie": 1,
-      "minecraft:skeleton": 3,
-      "minecraft:creeper": 2,
-      "minecraft:enderman": 1,
-      "minecraft:iron_golem": 1,
-      "minecraft:sheep": 1,
-      "minecraft:spider": 2,
-      "minecraft:cat": 1
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 15168,
+      "minecraft:walk_one_cm": 2359,
+      "minecraft:leave_game": 4,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 1434,
+      "minecraft:play_time": 15168,
+      "minecraft:damage_dealt": 110,
+      "minecraft:jump": 55,
+      "minecraft:time_since_death": 15168,
+      "minecraft:sprint_one_cm": 831,
+      "minecraft:total_world_time": 15168,
+      "minecraft:fly_one_cm": 2053,
+      "minecraft:walk_on_water_one_cm": 1269,
+      "minecraft:crouch_one_cm": 37,
+      "minecraft:sneak_time": 75
     },
-    "minecraft:picked_up": {
-      "minecraft:oxeye_daisy": 1,
-      "minecraft:ender_pearl": 1,
-      "minecraft:dirt": 3,
-      "minecraft:string": 1,
-      "minecraft:dandelion": 1,
-      "minecraft:gravel": 1,
-      "minecraft:mutton": 2,
-      "minecraft:gunpowder": 2,
-      "minecraft:arrow": 2,
-      "minecraft:iron_ingot": 4,
-      "minecraft:gray_wool": 1,
-      "minecraft:andesite": 1
+    "minecraft:mined": {
+      "minecraft:bush": 1,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:killed": {
+      "minecraft:glow_squid": 1
     },
     "minecraft:used": {
-      "minecraft:netherite_helmet": 1,
-      "minecraft:end_crystal": 10,
-      "minecraft:ender_pearl": 5,
-      "minecraft:gold_block": 2,
-      "minecraft:mace": 16,
-      "minecraft:obsidian": 5
+      "minecraft:dirt": 32
     },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 14214,
-      "minecraft:walk_one_cm": 10747,
-      "minecraft:leave_game": 4,
-      "minecraft:mob_kills": 12,
-      "minecraft:damage_dealt": 3100,
-      "minecraft:play_time": 14214,
-      "minecraft:jump": 136,
-      "minecraft:time_since_death": 14214,
-      "minecraft:sprint_one_cm": 3322,
-      "minecraft:total_world_time": 14214,
-      "minecraft:fly_one_cm": 81869,
-      "minecraft:crouch_one_cm": 44,
-      "minecraft:sneak_time": 113
+    "minecraft:picked_up": {
+      "minecraft:dirt": 1,
+      "minecraft:glow_ink_sac": 1
     }
   },
   "DataVersion": 4903

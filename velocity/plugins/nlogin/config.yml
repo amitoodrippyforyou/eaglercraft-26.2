@@ -66,7 +66,7 @@ database:
   #  |=> MySQL
   #  |=> SQLite
   type: SQLite
-
+  
   remote:
     # Defines MariaDB/MySQL information.
     # - Tutorial for installation: https://docs.nickuc.com/nlogin/mysql
@@ -74,7 +74,7 @@ database:
     database: "nLogin"
     username: "root"
     password: ""
-
+    
     # Set the connection properties.
     # - Don't change this information if you don't know what you are doing!
     properties:
@@ -83,7 +83,7 @@ database:
       #verifyServerCertificate: false
       useUnicode: true
       characterEncoding: "utf8"
-
+  
   # Defines the connection pool settings.
   # - Don't change this information if you don't know what you are doing!
   pool-settings:
@@ -91,13 +91,13 @@ database:
     minimum-idle: 10
     maximum-lifetime: 1800000 # 30 minutes
     connection-timeout: 5000 # 5 seconds
-
+  
   table:
     account:
       # Sets the name of the nLogin accounts table.
       # - Don't change this information if you don't know what you are doing!
       table-name: "nlogin"
-
+      
       # Sets the name of the columns.
       # - Don't change this information if you don't know what you are doing!
       columns:
@@ -114,12 +114,12 @@ database:
         email: "email"
         discord: "discord"
         settings: "settings"
-
+    
     data:
       # Sets the name of the nLogin data table.
       # - Don't change this information if you don't know what you are doing!
       table-name: "nlogin_data"
-
+      
       # Sets the name of the columns.
       # - Don't change this information if you don't know what you are doing!
       columns:
@@ -156,7 +156,7 @@ limbo:
   #      2 seconds X 20 ticks = 40 ticks
   #
   delay: 0
-
+  
   # Defines whether the limbo should hide the players' information.
   #
   # => Player info list:
@@ -169,24 +169,24 @@ limbo:
   # - It is recommended to disable this option in case of conflicts with other
   #   plugins that handle these options (e.g. lobby plugins).
   hide-player-stats: true
-
+  
   # Sets whether items should be hidden before logging in.
   hide-player-inventory: true
-
+  
   # Sets whether other players should be hidden before logging in.
   # - This option can prevent spamming of bots in the server's player list.
   hide-unauthenticated-players: true
-
+  
   # Defines whether the movement should be locked before authenticating.
   block-player-movement: true
-
+  
   # Defines whether the blinding effect will be added before logging in.
   use-blindness-effect: false
-
+  
   # Sets whether the player will be teleported to a safe position upon entering.
   # - It is recommended to activate the option if no spawn has been set.
   highest-block-location: false
-
+  
   unrestricted:
     # Defines the nicknames that will skip the authentication process.
     #
@@ -204,12 +204,12 @@ limbo:
     #- '[BuildCraft]'
     #- 'ComputerCraft'
 
-    # Sets the name of the inventories that will not be locked before login.
+        # Sets the name of the inventories that will not be locked before login.
     # - If you are a developer, it is best to use a higher priority for
     #   your inventory event (e.g. HIGH or HIGHEST), and then remove
     #   the nLogin cancel - "Event#setCancelled(false)"
     inventories:
-    #- 'My Inventory Name'
+#- 'My Inventory Name'
 
 #   __         __      ___               __      _____    _____
 #  / _\       /__\    / __\   /\ /\     /__\     \_   \  /__   \  /\_/\
@@ -221,74 +221,74 @@ limbo:
 security:
   # Sets the time for a player to authenticate (in seconds).
   auth-timeout: 90
-
+  
   # Sets whether high-risk nLogin commands will be disabled in-game.
   # - This option can prevent hacking attacks that remove admin registration.
   force-console-usage: true
-
+  
   nickname:
     # Set the regex for nickname validation.
     validation-regex: '([a-zA-Z0-9_]{3,16})'
-
+    
     kick-unregistered:
       # Defines whether unregistered players should be blocked.
       enable: false
-
+      
       bypass:
         # Defines whether premium players should be ignored by the restriction.
         premium: false
-
+        
         # Defines whether bedrock players should be ignored by the restriction.
         bedrock: false
-
+        
         # Defines the list of IPs that will be ignored by the restriction.
         ips: []
-
+  
   ip:
     # Sets whether the plugin should ignore the "This player is already online" check if the IP is the same as the one registered.
     # - This feature is useful if the player loses connection with the server and tries to log in again.
     bypass-online-check-with-same-ip: true
-
+    
     limit:
       # Sets whether the per-IP account limiter should be used.
       # - This option can prevent fake accounts.
       enable: true
-
+      
       # Sets the maximum number of records per IP address.
       max: 3
-
+      
       # Defines whether the IP limiter should block accounts from entering the server.
       prevent-login: false
-
+      
       bypass:
         # Defines whether registered players should be ignored by the IP limit.
         registered: true
-
+        
         # Defines whether premium players should be ignored by the IP limit.
         premium: true
-
+        
         # Defines whether bedrock players should be ignored by the IP limit.
         bedrock: true
-
+        
         # Defines the list of IPs that ignore the limitation.
         ips:
-          - '127.0.0.1'
-          - 'localhost'
-
+        - '127.0.0.1'
+        - 'localhost'
+  
   passwords:
     # Sets the minimum password size.
     small: 5
-
+    
     # Sets maximum password size.
     large: 32
-
+    
     secure:
       # Defines whether password strength validations should be performed.
       enable: false
-
+      
       # Defines whether registered players should be required to update their passwords if their passwords do not meet the secure password pattern.
       enforce: false
-
+      
       # Defines the pattern used to classify a password as secure.
       #
       #  | By default, it checks if the password:
@@ -298,20 +298,20 @@ security:
       #- |=> 4. Contains a special symbol (!"@#$%^&*?)
       #
       secure-regex: '(?=\S*\d)(?=\S*[A-Z])(?=\S*[a-z])(?=\S*[!@#$%^&*?])\S*$'
-
+  
   bruteforce:
     # Sets the maximum number of incorrect attempts a player can make.
     # - When using the value "1" the player will be disconnected immediately when he makes a mistake.
     max-auth-tries: 1
-
+    
     punish:
       # Defines whether brute-force attacks will be punished automatically.
       # - After too many incorrect attempts, the suspect IP address will be blocked.
       enable: true
-
+      
       # Sets the punishment time for a suspected brute force attack (in minutes).
       duration: 15
-
+  
   hashing:
     # Defines the hashing algorithm used.
     #
@@ -328,15 +328,15 @@ security:
     #  |=> ARGON2I
     #  |=> ARGON2D
     #
-    algorithm: "BCRYPT2A"
-
+    algorithm: ARGON2ID
+    
     bcrypt:
       rounds: 10
-
+    
     pbkdf2:
       iterations: 10000
       algorithm: "HmacSHA512"
-
+    
     argon2:
       iterations: 5
       memory: 32
@@ -358,26 +358,26 @@ ui:
   #  |=> PRE_LOGIN: sends before logging into the server.
   #  |=> AFTER_LOGIN: sends after logging into the server.
   #
-  show-dialogs: PRE_LOGIN
-
+  show-dialogs: AFTER_LOGIN
+  
   # Sets whether on-screen messages will be sent.
   use-title-bar: true
-
+  
   # Sets whether messages in actionbars will be sent.
   use-action-bar: true
-
+  
   # Sets whether the time remaining message will be sent.
   use-action-bar-timer: true
-
+  
   # Sets whether sound effects will be sent.
   use-sounds: true
-
+  
   # Defines whether chat messages will be disabled until authentication is complete.
   remove-chat-messages: true
-
+  
   # Sets whether the join message will be removed.
   remove-join-message: false
-
+  
   # Define whether the nLogin language should be adapted to the Minecraft language.
   language-by-client: false
 
@@ -404,7 +404,7 @@ commands:
   #- "@console tell @player Welcome to the server!" # run in console
   #- "@delay 40 /kit starter" # wait for 40 ticks (2s)
 
-  # Defines the list of commands to be executed after authenticating.
+    # Defines the list of commands to be executed after authenticating.
   #
   # - Options available:
   #  |=> @console: executes the command on the console.
@@ -418,7 +418,7 @@ commands:
   after-login:
   #- "@console @proxy send @player lobby" # run in proxy console (bungee, velocity, etc.)
 
-  # Sets the list of allowed commands before authenticating.
+    # Sets the list of allowed commands before authenticating.
   allowed-commands:
   #- "/loginstaff"
 

@@ -1,0 +1,54 @@
+menu:
+  # If your server version is 1.20+, this is what will be shown for lower version clients
+  1_20:
+    title: '&0Upgrade items'
+    rows: 3
+    template-slot: 10
+    item-slot: 11
+    upgrade-slot: 12
+    output-slot: 14
+    # If you need netherite upgrade template to convert a diamond item to netherite
+    need-netherite-template: true
+    # If we should force our gui instead of the default one, for 1.20 players.
+    # Can be useful, if you want to remove the need for netherite template usage
+    force-for-1_20-clients: false
+    dont-convert-with-modeldata: false
+    items:
+      '1':
+        slots:
+        - 0-26
+        material: gray_stained_glass_pane
+      '2':
+        slots:
+        - 10-12
+        - 14
+        material: air
+  
+  # If your server version is 1.16+, this is what will be shown to 1.20+ clients
+  1_16:
+    title: '&0Upgrade items'
+    rows: 3
+    item-slot: 11
+    upgrade-slot: 12
+    output-slot: 14
+    dont-convert-with-modeldata: false
+    force: false
+    items:
+      '1':
+        slots:
+        - 0-26
+        material: gray_stained_glass_pane
+      '2':
+        slots:
+        - 11-12
+        - 14
+        material: air
+
+listen-to-interact-event: true
+
+messages:
+  prefix: '&#AA3428&lAxSmithing &7» '
+  no-permission: '&cYou do not have permission to do this!'
+  reload: '&aPlugin reloaded in %time%ms!'
+
+config-version: 3

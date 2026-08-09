@@ -73,6 +73,8 @@ velocity-ping-save: true
 velocity-servers:
   default: 4
   lobby: 776
+  auth: 776
+  survival: 776
 #
 #----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #

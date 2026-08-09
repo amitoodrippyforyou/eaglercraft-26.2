@@ -1,0 +1,40 @@
+[2026/08/09 00:28:43 INFO]:           __             _       
+[2026/08/09 00:28:43 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/08/09 00:28:43 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/08/09 00:28:43 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/08/09 00:28:43 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/08/09 00:28:43 INFO]:                   |___/            
+[2026/08/09 00:28:43 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/08/09 00:28:43 INFO]:  
+[2026/08/09 00:28:43 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/09 00:28:44 DEBUG]: Messages were loaded in 193 ms (single file).
+[2026/08/09 00:28:44 DEBUG]: Settings were loaded in 309 ms.
+[2026/08/09 00:28:44 DEBUG]: Loading database...
+[2026/08/09 00:28:44 DEBUG]: Starting logger filter...
+[2026/08/09 00:28:44 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/08/09 00:29:21 INFO]: 
+[2026/08/09 00:29:21 INFO]:  Thank you so much for choosing nLogin! :)
+[2026/08/09 00:29:21 INFO]: 
+[2026/08/09 00:29:21 INFO]:  For your safety, please read the message below:
+[2026/08/09 00:29:21 INFO]:   Never download nLogin from unknown sources.
+[2026/08/09 00:29:21 INFO]:   A modified version may contain malicious software.
+[2026/08/09 00:29:21 INFO]: 
+[2026/08/09 00:29:21 INFO]:  Trusted sources:
+[2026/08/09 00:29:21 INFO]:   Website: nickuc.com
+[2026/08/09 00:29:21 INFO]:   GitHub: github.com/nickuc-com
+[2026/08/09 00:29:21 INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[2026/08/09 00:29:21 INFO]: 
+[2026/08/09 00:29:21 INFO]:  Official support:
+[2026/08/09 00:29:21 INFO]:   Documentation: docs.nickuc.com/nlogin/
+[2026/08/09 00:29:21 INFO]:   Discord: nickuc.com/discord
+[2026/08/09 00:29:21 INFO]:   Email: support@nickuc.com
+[2026/08/09 00:29:21 INFO]: 
+[2026/08/09 00:39:31 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/09 00:43:00 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/09 00:45:52 DEBUG]: Loading the messages_en.yml message file...
+[2026/08/09 00:45:52 DEBUG]: Messages were loaded in 19 ms (single file).
+[2026/08/09 00:45:52 DEBUG]: Settings were loaded in 31 ms.
+[2026/08/09 00:47:45 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Hyriskalt', 5f28247f2b3032f19cb9f2d1adf81e83, null, null, '$argon2id$v=19$m=32768,t=5,p=1$IC6s3b9NPTc82P43eVa2jQ$Xh0PZ7b+c3Z+trdhC5G89keRxjR1RPuz6aD4959zoTI', '0:0:0:0:0:0:0:1', '2026-08-09 00:47:45.005', '2026-08-09 00:47:45.005', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/08/09 00:47:45 INFO]: The user Hyriskalt has successfully registered.
+[2026/08/09 00:49:26 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Hyriskalt', `unique_id` = 5f28247f2b3032f19cb9f2d1adf81e83,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IC6s3b9NPTc82P43eVa2jQ$Xh0PZ7b+c3Z+trdhC5G89keRxjR1RPuz6aD4959zoTI', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-08-09 00:47:45.005, `last_seen` = 2026-08-09 00:49:26.172, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"lobby","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/08/09 00:57:18 INFO]: Successful plugin core shutdown (took 0.00s)

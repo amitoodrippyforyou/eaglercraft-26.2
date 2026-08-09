@@ -37,7 +37,7 @@ backend:
   # - For more information, go to the tutorial:
   #  ==> https://docs.nickuc.com/nlogin/proxy
   auth-servers:
-    - 'lobby'
+    - 'auth'
 
   # Defines whether the proxy should check if authentication servers are properly configured.
   # - If you are using a server without nLogin (e.g. limbo servers not based on Spigot)
@@ -78,10 +78,9 @@ redirect:
 
   after-auth:
     # Defines whether players should be automatically forwarded to other servers after authentication.
-    enable: false
+    enable: true
 
     # Defines which servers the players should be forwarded to.
     # - When entering more than one item, the server will be chosen randomly.
     servers:
-      - "lobby1"
-      - "lobby2"
+      - "Survival"
